@@ -2961,7 +2961,20 @@ a[href*="#no-click"], img[src*="#no-click"] {
         padding-left: 60px;
         padding-right: 30px;
     }
+  }
+}
 
 /* Helpers */
 .pt-20 {
   padding-top: 20px;
+}
+/* Dynamic Tabs */
+.page .main-content nav .nav-tabs .nav-item {
+  margin-right: 6px;
+  font-size: 15px;
+}
+
+.page .main-content .tab-content .tab-pane {
+  padding: 15px 0;
+  font-size: 16px;
+}
