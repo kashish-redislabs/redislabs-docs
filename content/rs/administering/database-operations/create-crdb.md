@@ -80,6 +80,7 @@ You must select **Redis 5** as the Redis version to use CRDB and RoF.
         - In the **Participating Clusters** list, click ![Add](/images/rs/icon_add.png#no-click "Add") to add clusters.
         - For each cluster, enter the URL for the cluster (`https://<cluster_URL>:9443`),
             and enter the credentials for the service account that you created.
+        - Note: You need to enter the local cluster details as well all the other participating clusters for that DB.
     - In the **Database clustering** option, you can either:
 <!-- Also in crdbs.md -->
         - Make sure the Database clustering is enabled and select the number of shards
